@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage template</title>
+</head>
+<body>
+         <!-- Here is our main header that is used across all the pages of our website -->
+
+        <header>
+            <h1>Header</h1>
+        </header>
+
+        <!--Website Nav Bar contains the main navigation functionality for the page. 
+            Secondary links, etc., would not go in the navigation.-->
+
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Our team</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+            <!-- A Search form is another common non-linear way to navigate through a website. -->
+
+           <form>
+            <input type="search" name="q" placeholder="Search query">
+            <input type="submit" value="Go!">
+           </form>
+        </nav>
+
+            <!-- Here is our page's main content. <main> is for content unique to this page. 
+                Use <main> only once per page, and put it directly inside <body>
+                    ideally this shouldn't be nested within other elements.-->
+    <main>
+
+            <!-- Within the main contains an <article> encloses a block of related content that makes sense 
+                on its own without the rest of the page (e.g., a single blog post). -->
+
+        <article>
+            <h2>Article heading</h2>
+            <p> Article text</p>
+            
+            <!--Below we use <br> to create line breaks -->
+
+            <p> This is an example of using line breaks<br>
+                As you can see each bit of text has it's line broken<br>
+                This is another line<br>
+                And one for good measure</p>
+
+
+            <h3>Subsection</h3>
+
+ 
+
+            <p>Article text continued</p>
+
+            <!--Use <span> and <div> to create dividers  and groups of content that can be accessed by
+            their id's later - this allows for faster editing. <span> is very much like a <div> element, 
+            but <div> is a block-level element whereas a <span> is an inline element.-->
+
+            <p> Here is a body of text with a span element<span class="editor-note">[Editor's note: 
+                It was at this point they realised that...</span>.</p>
+
+
+             <!--<hr> is used to created a horizontal line page break -->   
+            <p> Below is an example of a horizontal rule</p>
+
+            <hr>
+
+            <p> above is an example of a page break using the hr element</p>
+
+            <div class="Div example">
+                <h2>Using div</h2>
+                <p> divs are blocklevel elements that allow you to add classes to a section of your page</p>
+
+            </div>
+
+        </article>
+            
+        
+        
+        <!-- the aside content can also be nested within the main content - usually a side panel -->
+       
+            <aside>
+                <h2>Related</h2>
+                <ul>
+                    <li><a href="#">Point 1</a></li>
+                    <li><a href="#">Point 2</a></li>
+                    <li><a href="#">Point 3</a></li>
+                    <li><a href="#">Point 4</a></li>
+                    <li><a href="#">Point 5</a></li>
+                </ul>
+            </aside>
+
+
+    </main>
+
+    <footer>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+      </footer>
+
+
+</body>
+</html>
